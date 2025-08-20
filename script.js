@@ -35,8 +35,8 @@ const DATA = {
         {
           id: 'er-st-1',
           name: 'Sarmaşık Pusu',
-          thumb: './pusuMekan/SarmasikPususu.png',
-          image: './pusuMekan/SarmasikPususu.png',
+          thumb: './pusuMekan/sarmasikPususu.png',
+          image: './pusuMekan/sarmasikPususu.png',
           tactic: 'Binanın yanındaki sarmaşıklara yat'
         }
       ],
@@ -44,8 +44,8 @@ const DATA = {
         {
           id: 'er-mp-1',
           name: 'Mylta Power Operasyonu',
-          thumb: './pusuMekan/MyltaPowerOperasyonu.png',
-          image: './pusuMekan/MyltaPowerOperasyonu.png',
+          thumb: './pusuMekan/myltaPowerOperasyonu.png',
+          image: './pusuMekan/myltaPowerOperasyonu.png',
           tactic: 'Motorla belirtilen alandan 100km+ hız ile üç varillerin üzerine kon'
         }
       ],
@@ -62,8 +62,8 @@ const DATA = {
         {
           id: 'er-ya-1',
           name: 'Elektrik Direği Pusu',
-          thumb: './pusuMekan/ElektrikDiregiPususu.png',
-          image: './pusuMekan/ElektrikDiregiPususu.png',
+          thumb: './pusuMekan/elektrikDiregiPususu.png',
+          image: './pusuMekan/elektrikDiregiPususu.png',
           tactic: 'Tokinin çatısından elektrik direğine zipla'
         }
       ],
@@ -71,8 +71,8 @@ const DATA = {
         {
           id: 'er-sc-1',
           name: 'Basket Potası Pusu',
-          thumb: './pusuMekan/BasketPotasiPususu.png',
-          image: './pusuMekan/BasketPotasiPususu.png',
+          thumb: './pusuMekan/basketPotasiPususu.png',
+          image: './pusuMekan/basketPotasiPususu.png',
           tactic: 'Basket potasının üzerine çık'
         }
       ]
@@ -91,8 +91,8 @@ const DATA = {
         {
           id: 'mi-gr-2',
           name: 'Çöp ve Taşlar Pusu',
-          thumb: './pusuMekan/CopveTaslarPususu.png',
-          image: './pusuMekan/CopveTaslarPususu.png',
+          thumb: './pusuMekan/copVeTaslarPususu.png',
+          image: './pusuMekan/copVeTaslarPususu.png',
           tactic: 'Mavi çöp birikintilerine yada duvar dibindeki taşlık alana yat'
         }
       ]
@@ -104,8 +104,8 @@ const DATA = {
         {
           id: 'sa-bc-1',
           name: 'Kiriş Pusu',
-          thumb: './pusuMekan/KirisPususu1.png',
-          image: './pusuMekan/KirisPususu1.png',
+          thumb: './pusuMekan/kirisPususu1.png',
+          image: './pusuMekan/kirisPususu1.png',
           tactic: 'Tahta kirişin üzerine çık',
           alternateImage: './pusuMekan/KirisPususu2.png'
         }
@@ -123,8 +123,8 @@ const DATA = {
         {
           id: 'sa-bh-1',
           name: 'Görünmez Pusu',
-          thumb: './pusuMekan/GorunmezPususu.png',
-          image: './pusuMekan/GorunmezPususu.png',
+          thumb: './pusuMekan/gorunmezPususu.png',
+          image: './pusuMekan/gorunmezPususu.png',
           tactic: 'Kirişlerin üzerindeki sarmaşıkların içerisine yat'
         }
       ],
@@ -132,8 +132,8 @@ const DATA = {
         {
           id: 'sa-bc2-1',
           name: 'Yanan Araba Pusu',
-          thumb: './pusuMekan/YananArabaPususu.png',
-          image: './pusuMekan/YananArabaPususu.png',
+          thumb: './pusuMekan/yananArabaPususu.png',
+          image: './pusuMekan/yananArabaPususu.png',
           tactic: 'Alev almış arabadan çıkan dumanın içine pus'
         },
         {
@@ -224,8 +224,8 @@ const DATA = {
         {
           id: 'ka-ah-1',
           name: 'Tekstil Pusu',
-          thumb: './pusuMekan/TekstilPususu.png',
-          image: './pusuMekan/TekstilPususu.png',
+          thumb: './pusuMekan/tekstilPususu.png',
+          image: './pusuMekan/tekstilPususu.png',
           tactic: 'Kumaş makinelerinin üzerine tırman'
         }
       ],
@@ -265,20 +265,20 @@ const MAP_IMAGES = {
   'Military Solu': './bolgeler/copKonteyneri.png',
   'Farm': './bolgeler/farm.png',
   'Pochinki Çıkışı': './bolgeler/PochinkiCikisi.png',
-  'Al Habar 3 Bina': './bolgeler/AlHabar3Bina.png',
+  'Al Habar 3 Bina': './bolgeler/alHabar3Bina.png',
   'Stalber': './bolgeler/Stalber.png',
   'Mylta Power Yan Sanayi': './bolgeler/MyltaPowerYanSanayi.png',
   'Graveyard': './bolgeler/Graveyard.png',
-  'Bootcamp Sag Ust Yol Ayrimi': './bolgeler/BootcampSagUstYolAyrimi.png',
+  'Bootcamp Sag Ust Yol Ayrimi': './bolgeler/bootcampSagUstYolAyrimi.png',
   'Vapur Pususu': './haritalar/erangel.png',
   'Yer Alti Pususu': './haritalar/karakin.png',
   'Loot Pususu': './haritalar/sanhok.png',
-  'Yasnaya': './bolgeler/Yasnaya.png',
-           'Bhan': './bolgeler/Bhan.png',
-         'Bootcamp': './bolgeler/Bootcamp.png',
-         'School': './bolgeler/School.png',
-         'Tatmokun Aşağısı': './bolgeler/TatmokAsagisi.png',
-         'Paradise': './bolgeler/Paradise.png',
+  'Yasnaya': './bolgeler/yasnaya.png',
+           'Bhan': './bolgeler/bhan.png',
+         'Bootcamp': './bolgeler/bootcamp.png',
+         'School': './bolgeler/school.png',
+         'Tatmokun Aşağısı': './bolgeler/tatmokAsagisi.png',
+         'Paradise': './bolgeler/paradise.png',
          'Çalının İçerisinde Araba': './haritalar/sanhok.png'
 };
 
