@@ -274,7 +274,7 @@ const MAP_IMAGES = {
   'Ağaç Pusu Mekanı': './bolgeler/agacPususuMekan.png',
   'Military Solu': './bolgeler/copKonteyneri.png',
   'Farm': './bolgeler/farm.png',
-  'Pochinki Çıkışı': './bolgeler/pochinkiCikisi.png',
+  'Pochinki Çıkışı': './bolgeler/PochinkiCikisi.png',
   'Al Habar 3 Bina': './bolgeler/alHabar3Bina.png',
   'Stalber': './bolgeler/Stalber.png',
   'Mylta Power Yan Sanayi': './bolgeler/MyltaPowerYanSanayi.png',
@@ -584,5 +584,6 @@ el.backToRegions.addEventListener('click', () => {
 setYear();
 renderMaps();
 syncThemeIcon();
+
 
 
