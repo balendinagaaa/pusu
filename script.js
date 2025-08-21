@@ -84,8 +84,8 @@ const DATA = {
         {
           id: 'mi-gr-1',
           name: 'Kiriş Pusu',
-          thumb: './pusuMekan/KirisPususu.png',
-          image: './pusuMekan/KirisPususu.png',
+          thumb: './pusuMekan/kirisPususu.png',
+          image: './pusuMekan/kirisPususu.png',
           tactic: 'Binanın içerisindeki tahta kirişlere çık'
         },
         {
@@ -185,8 +185,8 @@ const DATA = {
         {
           id: 'pa-he-1',
           name: 'Heykel Çıkıntısı',
-          thumb: './pusuMekan/HeykelPususu.png',
-          image: './pusuMekan/HeykelPususu.png',
+          thumb: './pusuMekan/heykelPususu.png',
+          image: './pusuMekan/heykelPususu.png',
           tactic: 'Çıkıntıya tırmanıp bombayla beklemek'
         }
       ],
@@ -202,8 +202,8 @@ const DATA = {
         {
           id: 'pa-lab-2',
           name: 'Lab Bitki Pusu',
-          thumb: './pusuMekan/LabBitkiPususu.png',
-          image: './pusuMekan/LabBitkiPususu.png',
+          thumb: './pusuMekan/labBitkiPususu.png',
+          image: './pusuMekan/labBitkiPususu.png',
           tactic: 'Laboratuvardaki bitkilerin içerisinde yat'
         }
       ]
@@ -244,7 +244,17 @@ const DATA = {
     regions: {}
   },
   Rondo: {
-    regions: {}
+    regions: {
+      'Kapı Arkası': [
+        {
+          id: 'ro-ka-1',
+          name: 'Kapı Arkası 2',
+          thumb: './pusuMekan/kapiArkasi2.png',
+          image: './pusuMekan/kapiArkasi2.png',
+          tactic: 'İçeriye yem olarak malzemeler at ve kapının arkasında bekle'
+        }
+      ]
+    }
   }
 };
 
@@ -264,12 +274,12 @@ const MAP_IMAGES = {
   'Ağaç Pusu Mekanı': './bolgeler/agacPususuMekan.png',
   'Military Solu': './bolgeler/copKonteyneri.png',
   'Farm': './bolgeler/farm.png',
-  'Pochinki Çıkışı': './bolgeler/PochinkiCikisi.png',
+  'Pochinki Çıkışı': './bolgeler/pochinkiCikisi.png',
   'Al Habar 3 Bina': './bolgeler/alHabar3Bina.png',
   'Stalber': './bolgeler/Stalber.png',
   'Mylta Power Yan Sanayi': './bolgeler/MyltaPowerYanSanayi.png',
-  'Graveyard': './bolgeler/Graveyard.png',
-  'Bootcamp Sag Ust Yol Ayrimi': './bolgeler/bootcampSagUstYolAyrimi.png',
+  'Graveyard': './bolgeler/graveyard.png',
+  'Bootcamp Sag Ust Yol Ayrimi': './bolgeler/BootcampSagUstYolAyrimi.png',
   'Vapur Pususu': './haritalar/erangel.png',
   'Yer Alti Pususu': './haritalar/karakin.png',
   'Loot Pususu': './haritalar/sanhok.png',
@@ -279,7 +289,8 @@ const MAP_IMAGES = {
          'School': './bolgeler/school.png',
          'Tatmokun Aşağısı': './bolgeler/tatmokAsagisi.png',
          'Paradise': './bolgeler/paradise.png',
-         'Çalının İçerisinde Araba': './haritalar/sanhok.png'
+         'Çalının İçerisinde Araba': './haritalar/sanhok.png',
+         'Kapı Arkası': './bolgeler/kapiArkasi.png'
 };
 
 const state = {
