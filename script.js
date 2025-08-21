@@ -84,8 +84,8 @@ const DATA = {
         {
           id: 'mi-gr-1',
           name: 'Kiriş Pusu',
-          thumb: './pusuMekan/kirisPususu.png',
-          image: './pusuMekan/kirisPususu.png',
+          thumb: './pusuMekan/KirisPususu.png',
+          image: './pusuMekan/KirisPususu.png',
           tactic: 'Binanın içerisindeki tahta kirişlere çık'
         },
         {
@@ -185,8 +185,8 @@ const DATA = {
         {
           id: 'pa-he-1',
           name: 'Heykel Çıkıntısı',
-          thumb: './pusuMekan/heykelPususu.png',
-          image: './pusuMekan/heykelPususu.png',
+          thumb: './pusuMekan/HeykelPususu.png',
+          image: './pusuMekan/HeykelPususu.png',
           tactic: 'Çıkıntıya tırmanıp bombayla beklemek'
         }
       ],
@@ -202,8 +202,8 @@ const DATA = {
         {
           id: 'pa-lab-2',
           name: 'Lab Bitki Pusu',
-          thumb: './pusuMekan/labBitkiPususu.png',
-          image: './pusuMekan/labBitkiPususu.png',
+          thumb: './pusuMekan/LabBitkiPususu.png',
+          image: './pusuMekan/LabBitkiPususu.png',
           tactic: 'Laboratuvardaki bitkilerin içerisinde yat'
         }
       ]
@@ -278,8 +278,8 @@ const MAP_IMAGES = {
   'Al Habar 3 Bina': './bolgeler/alHabar3Bina.png',
   'Stalber': './bolgeler/Stalber.png',
   'Mylta Power Yan Sanayi': './bolgeler/MyltaPowerYanSanayi.png',
-  'Graveyard': './bolgeler/graveyard.png',
-  'Bootcamp Sag Ust Yol Ayrimi': './bolgeler/BootcampSagUstYolAyrimi.png',
+  'Graveyard': './bolgeler/Graveyard.png',
+  'Bootcamp Sag Ust Yol Ayrimi': './bolgeler/bootcampSagUstYolAyrimi.png',
   'Vapur Pususu': './haritalar/erangel.png',
   'Yer Alti Pususu': './haritalar/karakin.png',
   'Loot Pususu': './haritalar/sanhok.png',
@@ -584,6 +584,7 @@ el.backToRegions.addEventListener('click', () => {
 setYear();
 renderMaps();
 syncThemeIcon();
+
 
 
 
