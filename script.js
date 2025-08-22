@@ -31,15 +31,6 @@ const DATA = {
           tactic: 'Binanın yanındaki boş çöp kutusuna gir. Gözükmemek için kutunun ucuna eşyalar koy'
         }
       ],
-      'Stalber': [
-        {
-          id: 'er-st-1',
-          name: 'Sarmaşık Pusu',
-          thumb: './pusuMekan/sarmasikPususu.png',
-          image: './pusuMekan/sarmasikPususu.png',
-          tactic: 'Binanın yanındaki sarmaşıklara yat'
-        }
-      ],
       'Mylta Power Yan Sanayi': [
         {
           id: 'er-mp-1',
@@ -75,6 +66,15 @@ const DATA = {
           image: './pusuMekan/basketPotasiPususu.png',
           tactic: 'Basket potasının üzerine çık'
         }
+      ],
+      'School Sağ Üst':[
+        {
+          id: 'er-sc-2',
+          name: 'School Sağ Üst Pusu',
+          thumb: './pusuMekan/yemleme1.jpg',
+          image: './pusuMekan/yemleme1.jpg',
+          tactic: 'Duvarların sağ kısmına yem at ve bekle'
+       }
       ]
     }
   },
@@ -276,7 +276,6 @@ const MAP_IMAGES = {
   'Farm': './bolgeler/farm.png',
   'Pochinki Çıkışı': './bolgeler/PochinkiCikisi.png',
   'Al Habar 3 Bina': './bolgeler/alHabar3Bina.png',
-  'Stalber': './bolgeler/Stalber.png',
   'Mylta Power Yan Sanayi': './bolgeler/MyltaPowerYanSanayi.png',
   'Graveyard': './bolgeler/Graveyard.png',
   'Bootcamp Sag Ust Yol Ayrimi': './bolgeler/bootcampSagUstYolAyrimi.png',
@@ -284,13 +283,14 @@ const MAP_IMAGES = {
   'Yer Alti Pususu': './haritalar/karakin.png',
   'Loot Pususu': './haritalar/sanhok.png',
   'Yasnaya': './bolgeler/yasnaya.png',
-           'Bhan': './bolgeler/bhan.png',
-         'Bootcamp': './bolgeler/bootcamp.png',
-         'School': './bolgeler/school.png',
-         'Tatmokun Aşağısı': './bolgeler/tatmokAsagisi.png',
-         'Paradise': './bolgeler/paradise.png',
-         'Çalının İçerisinde Araba': './haritalar/sanhok.png',
-         'Kapı Arkası': './bolgeler/kapiArkasi.png'
+  'Bhan': './bolgeler/bhan.png',
+  'Bootcamp': './bolgeler/bootcamp.png',
+  'School': './bolgeler/school.png',
+  'Tatmokun Aşağısı': './bolgeler/tatmokAsagisi.png',
+  'Paradise': './bolgeler/paradise.png',
+  'Çalının İçerisinde Araba': './haritalar/sanhok.png',
+  'Kapı Arkası': './bolgeler/kapiArkasi.png',
+  'School Sağ Üst': './bolgeler/schoolSagUst.png'
 };
 
 const state = {
@@ -584,7 +584,6 @@ el.backToRegions.addEventListener('click', () => {
 setYear();
 renderMaps();
 syncThemeIcon();
-
 
 
 
