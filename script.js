@@ -10,7 +10,7 @@ const DATA = {
           name: 'Konteyner Pusu',
           thumb: './pusuMekan/copcuPususu.png',
           image: './pusuMekan/copcuPususu.png',
-          tactic: 'Konteyner arkasından çıkıp ani saldırı yapın. Urban warfare taktiklerini kullanın. Şehir kenarındaki konteynerlerde gizlenip rotasyon kesin.'
+          tactic: 'Konteynerin icerisinde dusmanini bekle.'
         }
       ],
       'Farm': [
@@ -177,7 +177,17 @@ const DATA = {
     regions: {}
   },
   Taego: {
-    regions: {}
+    regions: {
+      'Anahtar Pusu': [
+        {
+          id: 'ta-ap-1',
+          name: 'Anahtar Pususu',
+          thumb: './pusuMekan/yemleme2.png',
+          image: './pusuMekan/yemleme2.png',
+          tactic: 'Gizli bölmenin önüne yem koy. Dolabın üzerine veya masaların üzerinde bekle. Ortama uygun kıyafetler giymiş ol.'
+        }
+      ]
+    }
   },
   Paramo: {
     regions: {
@@ -290,7 +300,8 @@ const MAP_IMAGES = {
   'Paradise': './bolgeler/paradise.png',
   'Çalının İçerisinde Araba': './haritalar/sanhok.png',
   'Kapı Arkası': './bolgeler/kapiArkasi.png',
-  'School Sağ Üst': './bolgeler/schoolSagUst.png'
+  'School Sağ Üst': './bolgeler/schoolSagUst.png',
+  'Anahtar Pusu': './bolgeler/anahtarPususu.png'
 };
 
 const state = {
